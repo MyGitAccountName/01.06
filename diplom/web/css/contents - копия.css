@@ -1,0 +1,98 @@
+#contents{
+    position: relative;
+    color: #192430;
+}
+.contents_item{
+    box-sizing: border-box;
+    border-left: 8px solid #a2adb6;
+    padding: 10px 0 10px 15px;
+}
+.contents_item_title{
+    box-sizing: border-box;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+}
+.show_all .contents_item_title{
+    font-weight: 900;
+    padding-left: 23px;
+    margin-top: 20px;
+}
+.contents_item_title_inner{
+    display: inline-block;
+    position: relative;
+    padding: 0 60px 0 0;
+    cursor: pointer;
+}
+.contents_item_title_inner:hover:before{
+    transform: translateY(1px);
+}
+.contents_item_title_inner:before{
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 100%;
+    background: url(../images/faq_arrow_down.png) no-repeat center center;
+    cursor: pointer;
+    transition: .2s;
+    transition-timing-function: ease-in-out;
+}
+.contents_item_title_inner.open:before{
+    transform: rotate(180deg);
+}
+.contents_item_body{
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+}
+
+
+.contents_item_level2{
+    box-sizing: border-box;
+    border-left: 8px solid #a2adb6;
+    padding: 10px 0 10px 15px;
+}
+.contents_item_title_level2{
+    box-sizing: border-box;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+}
+.contents_item_title_level2{
+    font-weight: 900;
+    padding-left: 23px;
+    margin-top: 20px;
+}
+.contents_item_title_inner_level2{
+    display: inline-block;
+    position: relative;
+    padding: 0 60px 0 0;
+    cursor: pointer;
+}
+.contents_item_title_inner_level2:hover:before{
+    transform: translateY(1px);
+}
+.contents_item_title_inner_level2:before{
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 100%;
+    background: url(../images/faq_arrow_down.png) no-repeat center center;
+    cursor: pointer;
+    transition: .2s;
+    transition-timing-function: ease-in-out;
+}
+.contents_item_title_inner_level2.open:before{
+    transform: rotate(180deg);
+}
+.contents_item_body_level2{
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+}
